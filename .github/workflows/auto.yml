@@ -29,7 +29,7 @@ jobs:
 
             - name: Run the bot
               env:
-                  TOKEN: ${{ secrets.TOKEN }}
+                  TOKEN: ${{ secrets.TOKEN2 }}
                   WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
               run: |
                   npm run github
